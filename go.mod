@@ -1,4 +1,4 @@
-module digitalronin/helloworld
+module digitalronin/app
 
 go 1.19
 

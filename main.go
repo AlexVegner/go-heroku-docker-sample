@@ -11,5 +11,10 @@ func main() {
 		c.String(200, "Hello, World!")
 
 	})
+	r.GET("/ping", func(c *gin.Context) {
+
+		c.String(200, "pong")
+
+	})
 	r.Run()
 }
